@@ -1,4 +1,4 @@
-package com.evkost.meetingapp
+package com.evkost.meetingapp.ui.meeting
 
 import androidx.compose.foundation.ExperimentalFoundationApi
 import androidx.compose.foundation.layout.*
@@ -14,9 +14,11 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
+import com.evkost.meetingapp.*
+import com.evkost.meetingapp.R
 import com.evkost.meetingapp.model.Member
 import com.evkost.meetingapp.model.MemberType
-import com.evkost.meetingapp.ui.meeting.MeetingState
+import com.evkost.meetingapp.ui.meeting.component.*
 import kotlinx.collections.immutable.persistentListOf
 
 @Preview(showBackground = true)

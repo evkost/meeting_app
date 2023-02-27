@@ -1,4 +1,4 @@
-package com.evkost.meetingapp
+package com.evkost.meetingapp.ui.meeting.component
 
 import android.os.Build
 import android.os.Build.VERSION_CODES
@@ -28,6 +28,7 @@ import coil.compose.AsyncImage
 import coil.compose.AsyncImagePainter
 import coil.compose.SubcomposeAsyncImage
 import coil.compose.SubcomposeAsyncImageContent
+import com.evkost.meetingapp.R
 import com.evkost.meetingapp.model.Member
 import com.evkost.meetingapp.model.MemberType
 

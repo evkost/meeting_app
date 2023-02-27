@@ -1,4 +1,4 @@
-package com.evkost.meetingapp
+package com.evkost.meetingapp.ui.meeting.component
 
 import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.size
@@ -13,6 +13,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.sp
+import com.evkost.meetingapp.R
 
 @Preview(showBackground = true)
 @Composable

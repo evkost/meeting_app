@@ -1,4 +1,4 @@
-package com.evkost.meetingapp
+package com.evkost.meetingapp.ui.meeting.component
 
 import androidx.compose.animation.Crossfade
 import androidx.compose.animation.core.tween
@@ -11,6 +11,7 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.dimensionResource
 import androidx.compose.ui.tooling.preview.Preview
+import com.evkost.meetingapp.R
 
 @Preview(showBackground = true)
 @Composable
