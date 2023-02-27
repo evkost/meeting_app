@@ -1,0 +1,7 @@
+<resources>
+    <string name="meeting_members_title">Meeting participants</string>
+    <string name="current_user_name">You</string>
+    <string name="hello_dialog_title">Welcome dialog</string>
+    <string name="hello_dialog_text">Hello</string>
+    <string name="confirm_button_text">OK</string>
+</resources>

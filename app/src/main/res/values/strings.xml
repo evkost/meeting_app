@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Meeting App</string>
+    <string name="meeting_members_title">Участники собрания</string>
+    <string name="current_user_name">Вы</string>
+    <string name="hello_dialog_title">Приветственное окно</string>
+    <string name="hello_dialog_text">Привет</string>
+    <string name="confirm_button_text">ОК</string>
+</resources>
