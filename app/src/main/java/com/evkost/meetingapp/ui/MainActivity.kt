@@ -16,7 +16,7 @@ import androidx.compose.runtime.getValue
 import androidx.compose.runtime.rememberCoroutineScope
 import androidx.compose.ui.Modifier
 import com.evkost.meetingapp.ui.meeting.MeetingScreen
-import com.evkost.meetingapp.MembersBottomSheet
+import com.evkost.meetingapp.ui.meeting.component.MembersBottomSheet
 import com.evkost.meetingapp.ui.meeting.MeetingState
 import com.evkost.meetingapp.ui.meeting.MeetingViewModel
 import com.evkost.meetingapp.ui.theme.MeetingAppTheme

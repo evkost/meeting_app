@@ -10,7 +10,6 @@ import androidx.compose.runtime.*
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.res.stringResource
-import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
@@ -21,21 +20,21 @@ import com.evkost.meetingapp.model.MemberType
 import com.evkost.meetingapp.ui.meeting.component.*
 import kotlinx.collections.immutable.persistentListOf
 
-@Preview(showBackground = true)
-@Composable
-fun MeetingScreenPreview() {
-    MeetingScreen(
-        uiState = MeetingState.Done(
-            Member(id = 1, false, true, "", "", MemberType.ANOTHER_USER),
-            persistentListOf()
-        ),
-        onToggleVideo = {},
-        onToggleVoice = {},
-        onShowMembersBottomSheet = {},
-        onFinishActivity = {},
-        onStartSmsActivity = {}
-    )
-}
+//@Preview(showBackground = true)
+//@Composable
+//fun MeetingScreenPreview() {
+//    MeetingScreen(
+//        uiState = MeetingState.Done(
+//            Member(id = 1, false, true, "", "", MemberType.ANOTHER_USER),
+//            persistentListOf()
+//        ),
+//        onToggleVideo = {},
+//        onToggleVoice = {},
+//        onShowMembersBottomSheet = {},
+//        onFinishActivity = {},
+//        onStartSmsActivity = {}
+//    )
+//}
 
 @OptIn(ExperimentalFoundationApi::class)
 @Composable

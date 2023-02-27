@@ -1,4 +1,4 @@
-package com.evkost.meetingapp
+package com.evkost.meetingapp.ui.meeting.component
 
 import androidx.activity.compose.BackHandler
 import androidx.compose.foundation.layout.*
@@ -18,6 +18,7 @@ import androidx.compose.ui.text.style.TextOverflow
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import coil.compose.AsyncImage
+import com.evkost.meetingapp.R
 import com.evkost.meetingapp.model.Member
 import kotlinx.collections.immutable.ImmutableList
 import kotlinx.coroutines.CoroutineScope
